@@ -1,7 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Render props with prop
+## DEMO - Render props
 
+### Render props with prop
+
+```
 <Toggle
     render={({ on, toggle }) => (
         <div>
@@ -10,9 +13,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         </div>
     )}
 />
+```
 
 ### Children render props
 
+```
 <ToggleChildren>
     {({ on, toggle }) => (
         <div>
@@ -21,3 +26,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
         </div>
     )}
 </ToggleChildren>
+```
